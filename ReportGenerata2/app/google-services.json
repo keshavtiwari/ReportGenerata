@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "714303248172",
+    "firebase_url": "https://reportgenerata2.firebaseio.com",
+    "project_id": "reportgenerata2",
+    "storage_bucket": "reportgenerata2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:714303248172:android:7dd79c7a84ec3e5c",
+        "android_client_info": {
+          "package_name": "com.example.android.reportgenerata"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "714303248172-03t22lr2tonjisqemr4f1pnmjjbfe8j7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFS_07P6YpLcQWev8ekfJWtno0C-jQXzQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "714303248172-03t22lr2tonjisqemr4f1pnmjjbfe8j7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
