@@ -9,7 +9,8 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 public class addItemActivity extends AppCompatActivity  {
-    TextView tv;
+    EditText tv;
+    ArrayList<EditText> t;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,12 +19,16 @@ public class addItemActivity extends AppCompatActivity  {
         s.add("Name");
         s.add("Class");
         s.add("Roll No.");
+        t=new ArrayList<>();
         LinearLayout ll = (LinearLayout)findViewById(R.id.activity_add_item);
         for(int i=0;i<s.size();i++){
          tv= new EditText(this);
-         tv.setText(s.get(i));
-         tv.setPadding(5,5,5,5);   
+         tv.setHint(s.get(i));
+         tv.setPadding(5,5,5,5);
+         tv.setMaxLines(1);
+         
+         t.add(tv);
 
-        ll.addView(tv);}
+        ll.addView(t.get(i));}
     }
 }
