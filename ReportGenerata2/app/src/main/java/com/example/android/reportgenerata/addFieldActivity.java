@@ -16,7 +16,7 @@ public class addFieldActivity extends AppCompatActivity {
         final EditText t1=(EditText) findViewById(R.id.editText);
         Button b1=(Button) findViewById(R.id.addfield);
         Button b2=(Button) findViewById(R.id.additem_button);
-        final Intent i=new Intent(this,addItemActivity.class);
+        final Intent j=new Intent(this,addItemActivity.class);
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -27,7 +27,7 @@ public class addFieldActivity extends AppCompatActivity {
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(i);
+                startActivity(j);
             }
         });
 
